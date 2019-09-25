@@ -1,0 +1,7 @@
+*.pyc
+venv/
+.idea/
+.DS_Store/
+test/
+logs/
+temp/

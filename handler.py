@@ -106,7 +106,7 @@ def main():
 
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)
-
+    #http_server.start(0) # 默认是1如果不等于1 根据CPU数量启动
     tornado.ioloop.IOLoop.instance().start()
 
 
